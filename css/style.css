@@ -271,7 +271,7 @@ footer p {
 
 @media(width <= 680px) {
     nav {
-        margin: 3% 2%;
+        margin: 3%;
     }
 
     h1 {
@@ -291,7 +291,7 @@ footer p {
     .menu-logo {
         width: 5vw;
         height: 4vw;
-        margin: 25% 2%;
+        margin: 25% 1%;
     }
 
     .main-title img {
