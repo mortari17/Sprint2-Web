@@ -5,6 +5,7 @@
     --color-black-gray: rgb(25, 25, 25);
     --color-light-gray: rgb(172, 172, 172);
     --color-gray: rgb(41, 41, 41);
+    --transition: 0.2s;
 }
 
 * {
@@ -44,7 +45,7 @@ p {
 img {
     width: 15vw;
     height: 15vw;
-    border-radius: 5px;
+    border-radius: 4px;
 }
 
 .header-menu {
@@ -62,7 +63,7 @@ ol {
 
 a {
     text-decoration: none;
-    transition: 0.2s;
+    transition: var(--transition);
     font-size: 80%;
 }
 
@@ -74,7 +75,7 @@ a:hover {
     width: 3vw;
     height: 2vw;
     margin: 20% 3vh;
-    transition: 0.2s;
+    transition: var(--transition);
 }
 
 .menu-logo:hover {
@@ -152,7 +153,7 @@ a:hover {
     align-items: center;
     gap: 5vh;
     padding: 5vh;
-    height: 107vh;
+    height: 115vh;
 }
 
 .section h2 {
@@ -200,6 +201,11 @@ a:hover {
     height: 21vw;
 }
 
+#images img {
+    width: 23vw;
+    height: 20vw;
+}
+
 #meet-us {
     display: flex;
     flex-direction: column;
@@ -225,7 +231,7 @@ a:hover {
 
 i {
     font-size: 1.5vw;
-    transition: 0.2s;
+    transition: var(--transition);
 }
 
 i:hover {
@@ -272,12 +278,18 @@ footer p {
 }
 
 @media(width <= 680px) {
-    nav {
-        margin: 3%;
-    }
-
+    
     h1 {
         font-size: 7vh;
+    }
+    
+    img {
+        width: 29vw;
+        height: 29vw;
+    }
+
+    nav {
+        margin: 3%;
     }
 
     .options h2 {
@@ -301,21 +313,16 @@ footer p {
         height: 12vw;
     }
 
+    .section h2 {
+        font-size: 4vh;
+    }
+
     #robot {
         line-height: 4vw;
     }
 
     #robot p {
         font-size: 3.5vw;
-    }
-
-    img {
-        width: 29vw;
-        height: 29vw;
-    }
-
-    .section h2 {
-        font-size: 4vh;
     }
 
     .content {
@@ -351,5 +358,10 @@ footer p {
 
     i {
         font-size: 2vw;
+    }
+
+    #images img {
+        width: 43vw;
+        height: 38vw;
     }
 }
