@@ -25,15 +25,15 @@ body {
 
 h1 {
     font-weight: 300;
-    font-size: 6.5vw;
+    font-size: 12vh;
 }
 
 h2 {
-    font-size: 2vw;
+    font-size: 3vh;
 }
 
 p {
-    font-size: 2vw;
+    font-size: 4vh;
 }
 
 .main-page {
@@ -56,7 +56,7 @@ ol {
     list-style: none;
     display: flex;
     gap: 20px;
-    font-size: 1vw;
+    font-size: 2vh;
     margin: 2% 5vh;
 }
 
@@ -126,7 +126,7 @@ a:hover {
 }
 
 .options h2 {
-    font-size: 5vw;
+    font-size: 10vh;
 }
 
 .innovation {
@@ -150,13 +150,13 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 7vh;
+    gap: 4vw;
     padding: 3%;
     height: 120vh;
 }
 
 .section h2 {
-    font-size: 3vw;
+    font-size: 6vh;
     color: var(--color-pink)
 }
 
@@ -177,19 +177,19 @@ a:hover {
     width: 50%;
     display: flex;
     flex-direction: column;
-    gap: 2vh;
+    gap: 2vw;
     text-align: justify;
 }
 
 .content {
     display: flex;
-    gap: 20vh;
+    gap: 10vw;
 }
 
 .content-images {
     display: flex;
     flex-direction: column;
-    gap: 6vh;
+    gap: 3vw;
     align-items: center;
     justify-content: center;
 }
@@ -202,7 +202,7 @@ a:hover {
 #meet-us {
     display: flex;
     flex-direction: column;
-    gap: 7vh;
+    gap: 4vw;
 }
 
 #meet-us img {
@@ -211,13 +211,13 @@ a:hover {
 
 .row {
     display: flex;
-    gap: 7vh;
+    gap: 4vw;
 }
 
 .person {
     display: flex;
     flex-direction: column;
-    gap: 1vh;
+    gap: 0.5vw;
     align-items: center;
 }
 
@@ -237,7 +237,7 @@ i:hover {
 
 .information {
     display: flex;
-    gap: 2vh;
+    gap: 1vh;
     align-items: center;
     justify-content: center;
 }
@@ -264,5 +264,5 @@ footer {
 }
 
 footer p {
-    font-size: 1vw;
+    font-size: 2vh;
 }
