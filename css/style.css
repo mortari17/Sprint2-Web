@@ -23,60 +23,28 @@ body {
     background-color: var(--background-color);
 }
 
-img {
-    width: 30vh;
-    height: 30vh;
-    border-radius: 5px;
-}
-
-.main-title {
-    margin: 15% auto 30%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.main-title img {
-    width: 13vh;
-    height: 10vh;
-}
-
-.title {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 h1 {
     font-weight: 300;
-    font-size: 13vh;
-}
-
-.main title h2 {
-    font-size: 150%;
+    font-size: 6.5vw;
 }
 
 h2 {
-    font-size: 4.5vh;
+    font-size: 2vw;
 }
 
 p {
-    font-size: 130%;
+    font-size: 2vw;
 }
 
-.h2-text {
-    display: flex;
-    gap: 8px;
+.main-page {
+    background-color: var(--background-color);
+    height: 100vh;
 }
 
-.future {
-    color: var(--color-pink);
-}
-
-.main title img {
-    width: 50%;
-    height: 50%;
+img {
+    width: 15vw;
+    height: 15vw;
+    border-radius: 5px;
 }
 
 .header-menu {
@@ -88,8 +56,8 @@ ol {
     list-style: none;
     display: flex;
     gap: 20px;
-    font-size: 100%;
-    margin: 1% 5vh;
+    font-size: 1vw;
+    margin: 2% 5vh;
 }
 
 a {
@@ -103,14 +71,42 @@ a:hover {
 }
 
 .menu-logo {
-    height: 5vh;
-    width: 6vh;
-    margin: 15% 3vh;
+    width: 3vw;
+    height: 2vw;
+    margin: 20% 3vh;
     transition: 0.2s;
 }
 
 .menu-logo:hover {
     scale: 1.1;
+}
+
+.main-title {
+    margin: 15vw auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main-title img {
+    width: 10vw;
+    height: 7vw;
+}
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.h2-text {
+    display: flex;
+    gap: 8px;
+}
+
+.future {
+    color: var(--color-pink);
 }
 
 .properties {
@@ -124,27 +120,25 @@ a:hover {
     gap: 3vh;
     height: 100vh;
     padding: 3%;
-}
-
-.innovation {
-    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/GettyImages-1138429183-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50%;
+}
+
+.options h2 {
+    font-size: 5vw;
+}
+
+.innovation {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/GettyImages-1138429183-1.jpg);   
 }
 
 .simplicity {
     background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/google-rt2-robo-1060x649.webp);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
 }
 
 .accessibility {
     background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/globo-mundo-conexao-digital-banda-larga-geral.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50%;
 }
 
 .sections {
@@ -161,25 +155,22 @@ a:hover {
     height: 120vh;
 }
 
+.section h2 {
+    font-size: 3vw;
+    color: var(--color-pink)
+}
+
 .gray {
     background-color: var(--color-black-gray);
 }
 
-footer {
-    height: 15vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: var(--color-gray);
-}
-
-footer p {
-    font-size: 100%;
-}
-
 #robot {
     display: flex;
-    line-height: 4.5vh;
+    line-height: 2.7vw;
+}
+
+#robot p {
+    font-size: 1.5vw;
 }
 
 .text {
@@ -187,6 +178,7 @@ footer p {
     display: flex;
     flex-direction: column;
     gap: 2vh;
+    text-align: justify;
 }
 
 .content {
@@ -203,15 +195,14 @@ footer p {
 }
 
 .content-images img {
-    width: 75vh;
-    height: 45vh;
+    width: 36vw;
+    height: 21vw;
 }
 
 #meet-us {
     display: flex;
     flex-direction: column;
     gap: 7vh;
-
 }
 
 #meet-us img {
@@ -231,7 +222,7 @@ footer p {
 }
 
 i {
-    font-size: 150%;
+    font-size: 1.5vw;
     transition: 0.2s;
 }
 
@@ -252,10 +243,26 @@ i:hover {
 }
 
 .information p {
-    font-size: 80%;
+    font-size: 1vw;
 }
 
 #be-partner h3{
     color: var(--color-pink);
-    font-size: 10vh;
+    font-size: 5vw;
+}
+
+#be-partner p {
+    font-size: 1.7vw;
+}
+
+footer {
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-gray);
+}
+
+footer p {
+    font-size: 1vw;
 }
