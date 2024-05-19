@@ -294,8 +294,12 @@ footer p {
         height: 12vw;
     }
 
+    #robot {
+        line-height: 4vw;
+    }
+
     #robot p {
-        font-size: 2vw;
+        font-size: 3.5vw;
     }
 
     img {
@@ -313,7 +317,7 @@ footer p {
     }
 
     .text {
-        width: 80%;
+        width: 100%;
     }
 
     .content-images img {
