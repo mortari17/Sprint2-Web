@@ -3,6 +3,8 @@
     --color-white: rgb(255, 255, 255);
     --color-pink: rgb(253, 57, 81);
     --color-black-gray: rgb(25, 25, 25);
+    --color-light-gray: rgb(172, 172, 172);
+    --color-gray: rgb(41, 41, 41);
 }
 
 * {
@@ -13,32 +15,54 @@
     color: var(--color-white);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--background-color);
 }
 
+img {
+    width: 30vh;
+    height: 30vh;
+    border-radius: 5px;
+}
+
 .main-title {
-    margin: 8% auto 15%;
+    margin: 15% auto 30%;
     display: flex;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
+}
+
+.main-title img {
+    width: 13vh;
+    height: 10vh;
 }
 
 .title {
     display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h1 {
     font-weight: 300;
-    font-size: 80px;
+    font-size: 13vh;
+}
+
+.main title h2 {
+    font-size: 150%;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 4.5vh;
 }
 
 p {
-    font-size: 15px;
+    font-size: 130%;
 }
 
 .h2-text {
@@ -50,8 +74,9 @@ p {
     color: var(--color-pink);
 }
 
-img {
-    width: 120px;
+.main title img {
+    width: 50%;
+    height: 50%;
 }
 
 .header-menu {
@@ -63,14 +88,14 @@ ol {
     list-style: none;
     display: flex;
     gap: 20px;
-    font-size: 1cqmax;
-    margin: 20px;
+    font-size: 100%;
+    margin: 1% 5vh;
 }
 
 a {
     text-decoration: none;
     transition: 0.2s;
-    font-size: 13px;
+    font-size: 80%;
 }
 
 a:hover {
@@ -78,9 +103,9 @@ a:hover {
 }
 
 .menu-logo {
-    height: 50px;
-    width: 60px;
-    margin: 10%;
+    height: 5vh;
+    width: 6vh;
+    margin: 15% 3vh;
     transition: 0.2s;
 }
 
@@ -89,50 +114,148 @@ a:hover {
 }
 
 .properties {
-    border: solid var(--background-color);
-    background-color: var(--color-black-gray);
     display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
+    flex-direction: column;
 }
 
 .options {
-    border: solid var(--background-color);
-    height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 20px;
+    gap: 3vh;
+    height: 100vh;
+    padding: 3%;
+}
+
+.innovation {
+    background-image: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/GettyImages-1138429183-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.simplicity {
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/google-rt2-robo-1060x649.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.accessibility {
+    background-image: linear-gradient(rgba(0, 0, 0), rgba(0, 0, 0, 0.3)), url(../images/globo-mundo-conexao-digital-banda-larga-geral.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+}
+
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
     align-items: center;
-    padding: 20px 15px;
+    gap: 7vh;
+    padding: 3%;
+    height: 120vh;
 }
 
-#b2 {
-    background-color: rgb(20, 20, 20);
+.gray {
+    background-color: var(--color-black-gray);
 }
 
-@media(width < 580px) {
-    h1 {
-        font-size: 45px;
-    }
+footer {
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-gray);
+}
 
-    h2 {
-        font-size: 13px;
-    }
+footer p {
+    font-size: 100%;
+}
 
-    h3 {
-        font-size: 11px;
-    }
+#robot {
+    display: flex;
+    line-height: 4.5vh;
+}
 
-    p {
-        font-size: 8px;
-    }
+.text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
 
-    a {
-        font-size: 9px;
-    }
+.content {
+    display: flex;
+    gap: 20vh;
+}
 
-    .main-title {
-        margin: 30% auto 40%;
-    }
+.content-images {
+    display: flex;
+    flex-direction: column;
+    gap: 6vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-images img {
+    width: 75vh;
+    height: 45vh;
+}
+
+#meet-us {
+    display: flex;
+    flex-direction: column;
+    gap: 7vh;
+
+}
+
+#meet-us img {
+    border-radius: 5px;
+}
+
+.row {
+    display: flex;
+    gap: 7vh;
+}
+
+.person {
+    display: flex;
+    flex-direction: column;
+    gap: 1vh;
+    align-items: center;
+}
+
+i {
+    font-size: 150%;
+    transition: 0.2s;
+}
+
+i:hover {
+    scale: 1.01;
+    color: var(--color-pink)
+}
+
+.position {
+    color: var(--color-light-gray);
+}
+
+.information {
+    display: flex;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.information p {
+    font-size: 80%;
+}
+
+#be-partner h3{
+    color: var(--color-pink);
+    font-size: 10vh;
 }
