@@ -25,7 +25,7 @@ body {
 
 h1 {
     font-weight: 300;
-    font-size: 12vh;
+    font-size: 11vh;
 }
 
 h2 {
@@ -150,14 +150,15 @@ a:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 6vh;
-    padding: 3%;
+    gap: 5vh;
+    padding: 5vh;
     height: 120vh;
 }
 
 .section h2 {
     font-size: 6vh;
-    color: var(--color-pink)
+    color: var(--color-pink);
+    text-align: center;
 }
 
 .gray {
@@ -170,7 +171,7 @@ a:hover {
 }
 
 #robot p {
-    font-size: 1.5vw;
+    font-size: 2.8vh;
 }
 
 .text {
@@ -183,13 +184,13 @@ a:hover {
 
 .content {
     display: flex;
-    gap: 8vw;
+    gap: 4vw;
 }
 
 .content-images {
     display: flex;
     flex-direction: column;
-    gap: 3vw;
+    gap: 2vw;
     align-items: center;
     justify-content: center;
 }
@@ -274,7 +275,7 @@ footer p {
     }
 
     ol {
-        font-size: 1.5vh;
+        font-size: 1.2vh;
     }
 
     .menu-logo {
@@ -296,9 +297,18 @@ footer p {
         height: 25vw;
     }
 
+    .section h2 {
+        font-size: 4vh;
+    }
+
+    .content {
+        flex-direction: column;
+        align-items: center;
+    }
+
     .content-images img {
-        width: 40vw;
-        height: 25vw;
+        width: 38vw;
+        height: 22vw;
     }
 
     .row {
